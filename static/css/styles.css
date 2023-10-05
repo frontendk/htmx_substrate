@@ -1,0 +1,122 @@
+/* jura-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/jura-v31-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jura-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jura-v31-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/jura-v31-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jura-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/jura-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  html {
+      box-sizing: border-box;
+      }
+  *, *::before, *::after {
+      box-sizing: inherit;
+      }
+  
+  body {
+      font-family: 'Jura';
+      font-style: normal;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: normal;
+      color: white;
+      background-color: #000;
+      }
+  
+  /* header styles start */
+  
+  .wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      }
+  
+  .header_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 10px;
+      }
+  
+  .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      }
+  
+  .header_list {
+      display: flex;
+      flex-wrap: wrap;
+      }
+  
+  .header_item {
+      margin-right: 100px;
+      }
+  
+  .header_link {
+      font: 700 24px 'Jura', sans-serif;
+      color: white;
+      text-decoration: none;
+      }
+  
+  .header_link:hover, .header_link:focus, .header_link:active {
+      color: blue;
+      }
+  
+  /* header styles end */
+  
+  /* intro styles start */
+  
+  .intro{
+      position: fixed;
+      margin-left: 80px;
+      margin-top: 280px;
+      }
+  
+  .name{
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 120px;
+    }
+
+  .flex{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+  }
+  
+  /* intro styles end */
